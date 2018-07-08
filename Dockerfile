@@ -31,3 +31,4 @@ RUN apk add --no-cache git make bind-tools openssh grep && \
 EXPOSE 53/tcp
 
 CMD ["/run_axfrdns.sh"]
+
